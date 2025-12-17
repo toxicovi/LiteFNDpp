@@ -1,4 +1,4 @@
-```markdown
+
 ---
 title: "LiteFNDpp: A Dual-Path Lightweight and Interpretable Model for Real-Time Fake News Detection"
 authors:
