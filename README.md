@@ -1,8 +1,3 @@
-Perfect! Let’s focus **only on the README.md**.
-
-Here’s a clean, JOSS-ready README for LiteFNDpp:
-
-````markdown
 # LiteFNDpp
 
 **LiteFND++** is a lightweight and interpretable dual-path model for real-time fake news detection.  
