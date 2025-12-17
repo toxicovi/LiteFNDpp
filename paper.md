@@ -1,4 +1,3 @@
-
 ---
 title: "LiteFNDpp: A Dual-Path Lightweight and Interpretable Model for Real-Time Fake News Detection"
 authors:
@@ -7,6 +6,7 @@ authors:
     affiliation: "Xi'An Jiaotong University"
     email: sendmail2ovi@gmail.com
 ---
+
 
 # Summary
 
