@@ -109,7 +109,7 @@ print(prediction, explanation)
 
 ## Evaluation
 
-* **Cross-Dataset Generalization:** The model was trained on FakeNewsNet [@shu2020fakenews] and evaluated on the LIAR dataset, demonstrating consistent performance across datasets.
+* **Cross-Dataset Generalization:** Trained on FakeNewsNet [@shu2020fakenews] and evaluated on the LIAR dataset, demonstrating consistent performance across datasets.
 * **Explainability Analysis:** LIME provides token-level explanations that highlight words contributing to *Fake* or *Real* predictions [@ribeiro2016lime].
 * **Computational Efficiency:** The trained model occupies approximately 16 MB of memory, and training completes in approximately five minutes on standard CPU hardware.
 
