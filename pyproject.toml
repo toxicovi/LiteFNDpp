@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "litefndpp"
+version = "1.0.0"
+description = "LiteFNDpp: A lightweight and interpretable dual-path model for real-time fake news detection"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Ovi Pal" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "scikit-learn",
+    "spacy",
+    "lime"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
