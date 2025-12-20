@@ -101,18 +101,17 @@ print(prediction, explanation)
 | RoBERTa-base [@liu2019roberta]   | 98.2     | 0.981    | 221                 | No          |
 | DistilBERT [@sanh2019distilbert] | 97.6     | 0.976    | 112                 | No          |
 | TF–IDF + LR                      | 98.4     | 0.983    | 17                  | Yes         |
-| **LiteFNDpp**                    | 99.0     | 0.991    | 12                  | Yes         |
+| LiteFNDpp                       | 99.0     | 0.991    | 12                  | Yes         |
 
-* LiteFNDpp achieves competitive performance while significantly reducing inference latency on CPU-only systems.
-* Ablation studies confirm the contribution of dual-path ensemble, NER token joining, and semantic normalization.
-
+* LiteFNDpp demonstrates competitive classification performance while substantially reducing inference latency on CPU-only systems.
+* Ablation studies indicate that the dual-path ensemble, named-entity-aware token joining, and semantic normalization each contribute to overall performance.
 ---
 
 ## Evaluation
 
-* **Cross-Dataset Generalization:** Trained on FakeNewsNet [@shu2020fakenews], tested on LIAR; LiteFNDpp maintains performance advantage.
-* **Explainability Analysis:** LIME highlights words supporting "Fake" or "Real" predictions [@ribeiro2016lime].
-* **Computational Efficiency:** Model size ~16 MB; training completes in ~5 minutes on CPU.
+* **Cross-Dataset Generalization:** The model was trained on FakeNewsNet [@shu2020fakenews] and evaluated on the LIAR dataset, demonstrating consistent performance across datasets.
+* **Explainability Analysis:** LIME provides token-level explanations that highlight words contributing to *Fake* or *Real* predictions [@ribeiro2016lime].
+* **Computational Efficiency:** The trained model occupies approximately 16 MB of memory, and training completes in approximately five minutes on standard CPU hardware.
 
 **Ablation Study Example (F1-score)**
 
