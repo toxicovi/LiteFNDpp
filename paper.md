@@ -103,7 +103,7 @@ print(prediction, explanation)
 | TF–IDF + LR                      | 98.4     | 0.983    | 17                  | Yes         |
 | **LiteFNDpp**                    | 99.0     | 0.991    | 12                  | Yes         |
 
-* LiteFNDpp achieves **state-of-the-art performance** while being **18–20× faster than transformers** on CPU.
+* LiteFNDpp achieves competitive performance while significantly reducing inference latency on CPU-only systems.
 * Ablation studies confirm the contribution of dual-path ensemble, NER token joining, and semantic normalization.
 
 ---
