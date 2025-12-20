@@ -27,6 +27,9 @@ Most state-of-the-art fake news detection systems employ deep neural networks or
 
 LiteFNDpp addresses this gap by providing an open-source software package that emphasizes computational efficiency, interpretability, and ease of deployment. The framework is particularly valuable for researchers, journalists, and developers who require a transparent and real-time fake news detection solution without reliance on GPUs or large-scale infrastructure. By combining classical machine learning techniques with modern explainability tools, LiteFNDpp offers a practical alternative to heavyweight deep learning approaches.
 
+**Related Work**  
+LiteFND++ is related to previously published JOSS software that emphasizes interpretability and reproducibility, such as `FAT Forensics` [1], `DIANNA` [2], `PyDGN` [3], `TSInterpret` [4], and `imodels` [5]. Unlike these tools, LiteFND++ focuses on **real-time fake news detection** with a **dual-path lightweight ensemble** that achieves CPU-efficient inference with integrated LIME-based explanations.
+
 ---
 
 ## Implementation
