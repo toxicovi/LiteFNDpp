@@ -49,11 +49,9 @@ The classification pipeline consists of a **dual-path ensemble**:
 
 Predictions are combined via **weighted soft voting**:
 
-```
-
-P_{\text{final}}(y) = 0.65,P_{\text{LR}}(y) + 0.35,P_{\text{NB}}(y)
-
-````
+$$
+P_{\text{final}}(y) = 0.65 \cdot P_{\text{LR}}(y) + 0.35 \cdot P_{\text{NB}}(y)
+$$
 
 Explanations are generated using **LIME**, producing localized and human-readable interpretations [@ribeiro2016lime].
 
