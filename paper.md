@@ -124,20 +124,5 @@ print(prediction, explanation)
 
 ---
 
-## How to Cite
-
-```bibtex
-@article{LiteFNDpp2025,
-  title = {LiteFNDpp: A Dual-Path Lightweight and Interpretable Model for Real-Time Fake News Detection},
-  author = {Ovi Pal},
-  journal = {Journal of Open Source Software},
-  year = {2025},
-  volume = {10},
-  number = {xx},
-  pages = {xxxx},
-  doi = {10.21105/joss.xxxxx}
-}
-```
-
 ```
 
