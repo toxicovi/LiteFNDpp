@@ -51,7 +51,7 @@ Predictions are combined via **weighted soft voting**:
 
 ```
 
-$P_{final}(y) = 0.65 \cdot P_{LR}(y) + 0.35 \cdot P_{NB}(y)$
+P_{final}(y)=0.65\cdot P_{LR}(y)+0.35\cdot P_{NB}(y)
 
 ````
 
